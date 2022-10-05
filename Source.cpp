@@ -29,10 +29,14 @@ int main()
 			cout << "\nResult: " << SumFun(a, b) << endl << endl;
 			break;
 		case '/':
-			cout << "\nFeature in development...\n\n";
+			cout << "\nEnter to digits with space: ";
+			cin >> a >> b;
+			cout << "\nResult: " << DivFun(a, b) << endl << endl;
 			break;
 		case '*':
-			cout << "\nFeature in development...\n\n";
+			cout << "\nEnter to digits with space: ";
+			cin >> a >> b;
+			cout << "\nResult: " << MultFun(a, b) << endl << endl;
 			break;
 		case 'e':
 			cout << "\nExiting...\n\n";
