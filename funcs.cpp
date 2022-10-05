@@ -13,10 +13,10 @@ double SubFun(double a, double b)
 
 double MultFun(double a, double b)
 {
-	return 0;
+	return a * b;
 }
 
 double DivFun(double a, double b)
 {
-	return 0;
+	return a / b;
 }
